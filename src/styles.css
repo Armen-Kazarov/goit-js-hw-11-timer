@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #34a5d9;
+  width: 50rem;
+  margin: 0 auto;
+}
+
+.field {
+  text-align: center;
+  color: #ff0000;
+  font-size: 2rem;
+}
+
+.value {
+  display: block;
+}
